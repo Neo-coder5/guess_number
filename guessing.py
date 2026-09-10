@@ -44,3 +44,9 @@ def play_game(number, attempt=1):
         print("Too High! Try a lower number.\n")
 
     play_game(number, attempt + 1)
+
+display_rules()
+
+random_number = random.randint(1, 100)
+
+play_game(random_number)
